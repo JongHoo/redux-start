@@ -1,7 +1,7 @@
-import React from 'react';
-import './Palette.css';
+import React from 'react'
+import './Palette.css'
 
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 const PaletteItem = ({ color, active, onClick }) => {
   return (
@@ -10,8 +10,8 @@ const PaletteItem = ({ color, active, onClick }) => {
       style={{ backgroundColor: color }}
       onClick={onClick}
     />
-  );
-};
+  )
+}
 
 const Palette = ({ selected, onSelect }) => {
   return (
@@ -23,7 +23,7 @@ const Palette = ({ selected, onSelect }) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Palette;
+export default Palette

@@ -1,5 +1,5 @@
-import React from 'react';
-import './Counter.css';
+import React from 'react'
+import './Counter.css'
 
 const Counter = ({ value, color, onIncrement, onDecrement }) => {
   return (
@@ -8,7 +8,7 @@ const Counter = ({ value, color, onIncrement, onDecrement }) => {
       <button onClick={onIncrement}>+</button>
       <button onClick={onDecrement}>-</button>
     </div>
-  );
-};
+  )
+}
 
-export default Counter;
+export default Counter

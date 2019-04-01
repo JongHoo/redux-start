@@ -1,5 +1,5 @@
-import React from 'react';
-import './WaitingList.css';
+import React from 'react'
+import './WaitingList.css'
 
 const WaitingItem = ({ text, entered, onEnter, onLeave }) => {
   return (
@@ -10,8 +10,8 @@ const WaitingItem = ({ text, entered, onEnter, onLeave }) => {
         <button onClick={onLeave}>나감</button>
       </div>
     </li>
-  );
-};
+  )
+}
 
 const WaitingList = ({ waitingList, onEnter, onLeave }) => {
   return (
@@ -27,7 +27,7 @@ const WaitingList = ({ waitingList, onEnter, onLeave }) => {
         <WaitingItem text="팥쥐" />
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default WaitingList;
+export default WaitingList
